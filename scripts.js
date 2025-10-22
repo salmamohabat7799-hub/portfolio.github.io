@@ -13,7 +13,7 @@
       ? "Good Afternoon 🌞"
       : "Good Evening 🌙";
 
-  headerPara.textContent = `${greeting}! I'm Yusra Jalali, a Web Developer.`;
+  headerPara.textContent = `${greeting}! I'm salma mohabat, a Web Developer.`;
 })();
 
 // 2 — Smooth scroll for internal links
@@ -68,3 +68,4 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
     localStorage.setItem('yusra-portfolio-dark', isDark ? '1' : '0');
   });
 })();
+
